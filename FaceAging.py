@@ -136,14 +136,14 @@ class FaceAging:
         return processed_image
 
 if __name__ == "__main__":
-    checkpoint_dir = 'C:\\Users\\halwa\\OneDrive\\Desktop\\FaceAging\\Project\\Age Progression by Conditional Adversarial Autoencoder\\data'
-    sample_dir = 'C:\\Users\\halwa\\OneDrive\\Desktop\\FaceAging\\Project\\Age Progression by Conditional Adversarial Autoencoder\\data'
-    data_dir = 'C:\\Users\\halwa\\OneDrive\\Desktop\\FaceAging\\Project\\Age Progression by Conditional Adversarial Autoencoder\\data'
+    checkpoint_dir = 'F:\\Face Autoencoder\\Age-Progression-by-Conditional-Adversarial-Autoencoder\\data'
+    sample_dir = 'F:\\Face Autoencoder\\Age-Progression-by-Conditional-Adversarial-Autoencoder\\data'
+    data_dir = 'F:\\Face Autoencoder\\Age-Progression-by-Conditional-Adversarial-Autoencoder\\data'
     image_size = 64
     batch_size = 64
     num_z_channels = 100
     num_categories = 5  # Modify based on your category labels
-    epochs = 100
+    epochs = 1000
     learning_rate = 0.0002
     beta1 = 0.5
     is_crop = True
